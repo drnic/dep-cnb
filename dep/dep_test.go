@@ -2,7 +2,10 @@ package dep_test
 
 import (
 	"fmt"
+<<<<<<< Updated upstream
 	"github.com/cloudfoundry/libcfbuildpack/layers"
+=======
+>>>>>>> Stashed changes
 	"io/ioutil"
 	"os"
 	"path/filepath"

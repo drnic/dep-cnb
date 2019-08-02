@@ -1,4 +1,4 @@
-package foo 
+package foo
 
 import (
 	"fmt"
@@ -8,4 +8,3 @@ import (
 func Done() {
 	fmt.Println("Bye from foo!")
 }
-

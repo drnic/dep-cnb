@@ -1,7 +1,7 @@
 /*
 	The bar package implements bar functionality
 */
-package bar 
+package bar
 
 import (
 	"fmt"
@@ -11,4 +11,3 @@ import (
 func Do() {
 	fmt.Println("Hello from bar")
 }
-

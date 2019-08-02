@@ -13,7 +13,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/mattn/go-isatty"
+	isatty "github.com/onsi/ginkgo/reporters/stenographer/support/go-isatty"
 )
 
 const (

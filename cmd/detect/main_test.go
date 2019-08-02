@@ -2,7 +2,10 @@ package main
 
 import (
 	"fmt"
+<<<<<<< Updated upstream
 	"os"
+=======
+>>>>>>> Stashed changes
 	"path/filepath"
 	"testing"
 

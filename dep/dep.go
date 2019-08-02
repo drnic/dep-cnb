@@ -81,6 +81,7 @@ func NewContributor(context build.Build, runner Runner) (Contributor, bool, erro
 		logger:         context.Logger,
 	}
 
+<<<<<<< Updated upstream
 	targets, exists := dependency.Metadata[Targets]
 	if exists {
 		if targets, ok := targets.([]interface{}); ok {
@@ -91,6 +92,8 @@ func NewContributor(context build.Build, runner Runner) (Contributor, bool, erro
 		}
 	}
 
+=======
+>>>>>>> Stashed changes
 	appDirName, ok := importPath.(string)
 	if !ok {
 		return Contributor{}, false, nil

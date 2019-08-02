@@ -2,9 +2,20 @@ package main
 
 import (
 	"fmt"
+<<<<<<< Updated upstream
 	"os"
 	"path/filepath"
 	"strings"
+=======
+	"io/ioutil"
+	"os"
+	"path/filepath"
+
+	"github.com/buildpack/libbuildpack/buildplan"
+	"github.com/cloudfoundry/dep-cnb/dep"
+	"github.com/cloudfoundry/libcfbuildpack/helper"
+	"gopkg.in/yaml.v2"
+>>>>>>> Stashed changes
 
 	"github.com/buildpack/libbuildpack/buildplan"
 	"github.com/cloudfoundry/dep-cnb/dep"

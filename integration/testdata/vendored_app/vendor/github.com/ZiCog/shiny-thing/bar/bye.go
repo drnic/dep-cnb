@@ -1,4 +1,4 @@
-package bar 
+package bar
 
 import (
 	"fmt"
@@ -8,4 +8,3 @@ import (
 func Done() {
 	fmt.Println("Bye from bar")
 }
-

@@ -1,7 +1,7 @@
 /*
 	The hello package does something interesting
 */
-package foo 
+package foo
 
 import (
 	"fmt"
@@ -11,4 +11,3 @@ import (
 func Do() {
 	fmt.Println("Hello from foo!")
 }
-

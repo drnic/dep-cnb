@@ -24,7 +24,11 @@ func TestIntegration(t *testing.T) {
 
 	depURI, err = dagger.PackageBuildpack(bpDir)
 	Expect(err).NotTo(HaveOccurred())
+<<<<<<< Updated upstream
 	defer dagger.DeleteBuildpack(depURI)
+=======
+	defer os.RemoveAll(depURI)
+>>>>>>> Stashed changes
 
 	goURI, err = dagger.GetLatestBuildpack("go-compiler-cnb")
 	Expect(err).NotTo(HaveOccurred())
